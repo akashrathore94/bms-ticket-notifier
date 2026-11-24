@@ -1,5 +1,2030 @@
 {
-  "shows": {},
+  "shows": {
+    "CSWO|23030|20261125|Tickets": {
+      "venue": "Cinepolis: Nexus Seawoods, Nerul, Navi Mumbai",
+      "time": "09:30 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CSWO|23003|20261125|Tickets": {
+      "venue": "Cinepolis: Nexus Seawoods, Nerul, Navi Mumbai",
+      "time": "10:55 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CSWO|23037|20261125|Tickets": {
+      "venue": "Cinepolis: Nexus Seawoods, Nerul, Navi Mumbai",
+      "time": "01:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CSWO|22998|20261125|Tickets": {
+      "venue": "Cinepolis: Nexus Seawoods, Nerul, Navi Mumbai",
+      "time": "05:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CSWO|23018|20261125|Tickets": {
+      "venue": "Cinepolis: Nexus Seawoods, Nerul, Navi Mumbai",
+      "time": "06:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CSWO|23009|20261125|Tickets": {
+      "venue": "Cinepolis: Nexus Seawoods, Nerul, Navi Mumbai",
+      "time": "09:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CSWO|23017|20261125|Tickets": {
+      "venue": "Cinepolis: Nexus Seawoods, Nerul, Navi Mumbai",
+      "time": "10:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CPVM|19584|20261125|Tickets": {
+      "venue": "Cinepolis: Lake Shore, Thane (EX Viviana Mall)",
+      "time": "09:30 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CPVM|19585|20261125|Tickets": {
+      "venue": "Cinepolis: Lake Shore, Thane (EX Viviana Mall)",
+      "time": "01:10 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CPVM|19586|20261125|Tickets": {
+      "venue": "Cinepolis: Lake Shore, Thane (EX Viviana Mall)",
+      "time": "05:05 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CPVM|19587|20261125|Tickets": {
+      "venue": "Cinepolis: Lake Shore, Thane (EX Viviana Mall)",
+      "time": "09:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXBY|222188|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Bhayander",
+      "time": "08:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXBY|222215|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Bhayander",
+      "time": "09:45 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXBY|222185|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Bhayander",
+      "time": "11:45 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXBY|222212|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Bhayander",
+      "time": "01:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXBY|222182|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Bhayander",
+      "time": "03:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXBY|222209|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Bhayander",
+      "time": "05:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXBY|222206|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Bhayander",
+      "time": "09:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXBY|222176|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Bhayander",
+      "time": "11:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IMOB|26028|20261125|Tickets": {
+      "venue": "INOX Megaplex: Sky City Mall, Borivali",
+      "time": "10:30 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IMOB|26020|20261125|Tickets": {
+      "venue": "INOX Megaplex: Sky City Mall, Borivali",
+      "time": "11:30 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IMOB|26029|20261125|Tickets": {
+      "venue": "INOX Megaplex: Sky City Mall, Borivali",
+      "time": "02:25 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IMOB|26021|20261125|Tickets": {
+      "venue": "INOX Megaplex: Sky City Mall, Borivali",
+      "time": "03:25 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IMOB|26030|20261125|Tickets": {
+      "venue": "INOX Megaplex: Sky City Mall, Borivali",
+      "time": "06:20 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IMOB|26031|20261125|Tickets": {
+      "venue": "INOX Megaplex: Sky City Mall, Borivali",
+      "time": "10:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMMA|238092|20261125|Tickets": {
+      "venue": "INOX: Megaplex, Inorbit Mall, Malad",
+      "time": "09:45 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMMA|238144|20261125|Tickets": {
+      "venue": "INOX: Megaplex, Inorbit Mall, Malad",
+      "time": "10:45 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMMA|238093|20261125|Tickets": {
+      "venue": "INOX: Megaplex, Inorbit Mall, Malad",
+      "time": "01:40 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMMA|238145|20261125|Tickets": {
+      "venue": "INOX: Megaplex, Inorbit Mall, Malad",
+      "time": "02:40 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMMA|238094|20261125|Tickets": {
+      "venue": "INOX: Megaplex, Inorbit Mall, Malad",
+      "time": "05:35 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMMA|238146|20261125|Tickets": {
+      "venue": "INOX: Megaplex, Inorbit Mall, Malad",
+      "time": "06:35 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMMA|238095|20261125|Tickets": {
+      "venue": "INOX: Megaplex, Inorbit Mall, Malad",
+      "time": "09:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMMA|238147|20261125|Tickets": {
+      "venue": "INOX: Megaplex, Inorbit Mall, Malad",
+      "time": "10:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MTCR|128712|20261125|Tickets": {
+      "venue": "MOVIETIME Cubic Mall: Chembur",
+      "time": "01:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MTCR|128705|20261125|Tickets": {
+      "venue": "MOVIETIME Cubic Mall: Chembur",
+      "time": "10:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "INRC|178007|20261125|Tickets": {
+      "venue": "INOX: R-City, Ghatkopar",
+      "time": "02:10 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "INRC|178008|20261125|Tickets": {
+      "venue": "INOX: R-City, Ghatkopar",
+      "time": "06:05 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "INRC|178009|20261125|Tickets": {
+      "venue": "INOX: R-City, Ghatkopar",
+      "time": "10:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "POVI|37010|20261125|Tickets": {
+      "venue": "HDFC Millennia PVR ICON: Oberoi Mall, Goregaon (E)",
+      "time": "04:05 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "POVI|37011|20261125|Tickets": {
+      "venue": "HDFC Millennia PVR ICON: Oberoi Mall, Goregaon (E)",
+      "time": "08:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "POVI|36978|20261125|Tickets": {
+      "venue": "HDFC Millennia PVR ICON: Oberoi Mall, Goregaon (E)",
+      "time": "10:25 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CPNM|11322|20261125|Tickets": {
+      "venue": "Cinepolis: Magnet Mall, Bhandup (W)",
+      "time": "09:30 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CPNM|11323|20261125|Tickets": {
+      "venue": "Cinepolis: Magnet Mall, Bhandup (W)",
+      "time": "01:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PIPP|40084|20261125|Tickets": {
+      "venue": "PVR ICON: Phoenix Palladium, Lower Parel Mumbai",
+      "time": "11:15 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PIPP|40085|20261125|Tickets": {
+      "venue": "PVR ICON: Phoenix Palladium, Lower Parel Mumbai",
+      "time": "03:10 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PIPP|40086|20261125|Tickets": {
+      "venue": "PVR ICON: Phoenix Palladium, Lower Parel Mumbai",
+      "time": "07:05 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PIPP|40087|20261125|Tickets": {
+      "venue": "PVR ICON: Phoenix Palladium, Lower Parel Mumbai",
+      "time": "11:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PCMM|30833|20261125|Tickets": {
+      "venue": "PVR: The Capital Mall, Nalasopara (E)",
+      "time": "10:45 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PCMM|30834|20261125|Tickets": {
+      "venue": "PVR: The Capital Mall, Nalasopara (E)",
+      "time": "02:40 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PCMM|30835|20261125|Tickets": {
+      "venue": "PVR: The Capital Mall, Nalasopara (E)",
+      "time": "06:35 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PCMM|30836|20261125|Tickets": {
+      "venue": "PVR: The Capital Mall, Nalasopara (E)",
+      "time": "10:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MCFF|67117|20261125|Tickets": {
+      "venue": "Miraj Cinemas: Funfiesta, Nalasopara (W)",
+      "time": "09:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "POPE|30325|20261125|Tickets": {
+      "venue": "PVR: Orion Mall, Panvel",
+      "time": "12:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "POPE|30327|20261125|Tickets": {
+      "venue": "PVR: Orion Mall, Panvel",
+      "time": "07:50 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "POPE|30344|20261125|Tickets": {
+      "venue": "PVR: Orion Mall, Panvel",
+      "time": "11:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PVAE|22518|20261125|Tickets": {
+      "venue": "PVR: Sangam Andheri (Audi 3-All New 3D Projection)",
+      "time": "10:45 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PVAE|22519|20261125|Tickets": {
+      "venue": "PVR: Sangam Andheri (Audi 3-All New 3D Projection)",
+      "time": "02:40 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PVAE|22520|20261125|Tickets": {
+      "venue": "PVR: Sangam Andheri (Audi 3-All New 3D Projection)",
+      "time": "06:35 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PVAE|22521|20261125|Tickets": {
+      "venue": "PVR: Sangam Andheri (Audi 3-All New 3D Projection)",
+      "time": "10:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MIFU|18770|20261125|Tickets": {
+      "venue": "Funcity Big Cinema:UNR (OPEN 4 NEW RECLINER SCRNS)",
+      "time": "02:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MIFU|18771|20261125|Tickets": {
+      "venue": "Funcity Big Cinema:UNR (OPEN 4 NEW RECLINER SCRNS)",
+      "time": "06:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MIFU|18788|20261125|Tickets": {
+      "venue": "Funcity Big Cinema:UNR (OPEN 4 NEW RECLINER SCRNS)",
+      "time": "10:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IMCM|148601|20261125|Tickets": {
+      "venue": "Metro INOX Cinemas: Marine Lines",
+      "time": "10:15 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IMCM|148602|20261125|Tickets": {
+      "venue": "Metro INOX Cinemas: Marine Lines",
+      "time": "02:10 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IMCM|148603|20261125|Tickets": {
+      "venue": "Metro INOX Cinemas: Marine Lines",
+      "time": "06:05 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IMCM|148604|20261125|Tickets": {
+      "venue": "Metro INOX Cinemas: Marine Lines",
+      "time": "10:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MCIW|21512|20261125|Tickets": {
+      "venue": "Miraj Cinemas: IMAX, Wadala",
+      "time": "01:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXBO|136906|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Borivali (W)",
+      "time": "06:45 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXBO|136902|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Borivali (W)",
+      "time": "10:15 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXBO|136898|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Borivali (W)",
+      "time": "02:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXBO|136892|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Borivali (W)",
+      "time": "09:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PMKM|45966|20261125|Tickets": {
+      "venue": "PVR: Market City, Kurla (Premiere)",
+      "time": "03:25 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PMKM|45967|20261125|Tickets": {
+      "venue": "PVR: Market City, Kurla (Premiere)",
+      "time": "07:20 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PMKM|45968|20261125|Tickets": {
+      "venue": "PVR: Market City, Kurla (Premiere)",
+      "time": "11:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMKY|126111|20261125|Tickets": {
+      "venue": "INOX:Metro Mall Junction,Kalyan(Newly Renovated)",
+      "time": "08:45 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMKY|126116|20261125|Tickets": {
+      "venue": "INOX:Metro Mall Junction,Kalyan(Newly Renovated)",
+      "time": "10:15 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMKY|126117|20261125|Tickets": {
+      "venue": "INOX:Metro Mall Junction,Kalyan(Newly Renovated)",
+      "time": "02:10 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMKY|126118|20261125|Tickets": {
+      "venue": "INOX:Metro Mall Junction,Kalyan(Newly Renovated)",
+      "time": "06:05 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMKY|126114|20261125|Tickets": {
+      "venue": "INOX:Metro Mall Junction,Kalyan(Newly Renovated)",
+      "time": "07:35 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMKY|126119|20261125|Tickets": {
+      "venue": "INOX:Metro Mall Junction,Kalyan(Newly Renovated)",
+      "time": "10:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMKY|126115|20261125|Tickets": {
+      "venue": "INOX:Metro Mall Junction,Kalyan(Newly Renovated)",
+      "time": "11:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "SMFV|46196|20261125|Tickets": {
+      "venue": "MovieMax: SM5 Kalyan, Newly Renovated",
+      "time": "12:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "SMFV|46202|20261125|Tickets": {
+      "venue": "MovieMax: SM5 Kalyan, Newly Renovated",
+      "time": "04:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "SMFV|46199|20261125|Tickets": {
+      "venue": "MovieMax: SM5 Kalyan, Newly Renovated",
+      "time": "11:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PLXP|36482|20261125|Tickets": {
+      "venue": "PVR: Lodha Xperia, Palava",
+      "time": "10:45 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PLXP|36483|20261125|Tickets": {
+      "venue": "PVR: Lodha Xperia, Palava",
+      "time": "02:40 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PLXP|36484|20261125|Tickets": {
+      "venue": "PVR: Lodha Xperia, Palava",
+      "time": "06:35 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PLXP|36485|20261125|Tickets": {
+      "venue": "PVR: Lodha Xperia, Palava",
+      "time": "10:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MCRM|27978|20261125|Tickets": {
+      "venue": "Miraj Cinemas: R Mall, Mulund",
+      "time": "09:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MCRM|27980|20261125|Tickets": {
+      "venue": "Miraj Cinemas: R Mall, Mulund",
+      "time": "04:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MCRM|27982|20261125|Tickets": {
+      "venue": "Miraj Cinemas: R Mall, Mulund",
+      "time": "11:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "THAB|9787|20261125|Tickets": {
+      "venue": "Cinepolis: High Street Mall, Thane (EX Cinemastar)",
+      "time": "09:20 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "THAB|9791|20261125|Tickets": {
+      "venue": "Cinepolis: High Street Mall, Thane (EX Cinemastar)",
+      "time": "10:30 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "THAB|9788|20261125|Tickets": {
+      "venue": "Cinepolis: High Street Mall, Thane (EX Cinemastar)",
+      "time": "01:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "THAB|9792|20261125|Tickets": {
+      "venue": "Cinepolis: High Street Mall, Thane (EX Cinemastar)",
+      "time": "02:25 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "THAB|9801|20261125|Tickets": {
+      "venue": "Cinepolis: High Street Mall, Thane (EX Cinemastar)",
+      "time": "03:55 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMDA|103949|20261125|Tickets": {
+      "venue": "INOX: Thakur Mall, Dahisar",
+      "time": "09:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMDA|103950|20261125|Tickets": {
+      "venue": "INOX: Thakur Mall, Dahisar",
+      "time": "12:55 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMDA|103951|20261125|Tickets": {
+      "venue": "INOX: Thakur Mall, Dahisar",
+      "time": "04:50 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMDA|103952|20261125|Tickets": {
+      "venue": "INOX: Thakur Mall, Dahisar",
+      "time": "08:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "INKO|103084|20261125|Tickets": {
+      "venue": "INOX: Korum Mall, Eastern Express Highway, Thane",
+      "time": "07:35 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "INKO|103085|20261125|Tickets": {
+      "venue": "INOX: Korum Mall, Eastern Express Highway, Thane",
+      "time": "11:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "STER|113235|20261125|Tickets": {
+      "venue": "Sterling Cineplex: Fort",
+      "time": "11:30 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "STER|113237|20261125|Tickets": {
+      "venue": "Sterling Cineplex: Fort",
+      "time": "06:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "STER|113238|20261125|Tickets": {
+      "venue": "Sterling Cineplex: Fort",
+      "time": "10:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CAGL|8073|20261125|Tickets": {
+      "venue": "Cinepolis: Aurum, Ghansoli, Navi Mumbai",
+      "time": "10:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CAGL|8074|20261125|Tickets": {
+      "venue": "Cinepolis: Aurum, Ghansoli, Navi Mumbai",
+      "time": "02:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CAGL|8072|20261125|Tickets": {
+      "venue": "Cinepolis: Aurum, Ghansoli, Navi Mumbai",
+      "time": "10:50 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PDDV|32303|20261125|Tickets": {
+      "venue": "PVR: Dynamix, Juhu",
+      "time": "06:50 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PDDV|32304|20261125|Tickets": {
+      "venue": "PVR: Dynamix, Juhu",
+      "time": "10:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FNAN|8309|20261125|Tickets": {
+      "venue": "Cinepolis: Fun Republic Mall, Andheri (W)",
+      "time": "10:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FNAN|8313|20261125|Tickets": {
+      "venue": "Cinepolis: Fun Republic Mall, Andheri (W)",
+      "time": "10:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PVMI|30383|20261125|Tickets": {
+      "venue": "PVR: Infiniti, Malad Mumbai",
+      "time": "06:55 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PVMI|30384|20261125|Tickets": {
+      "venue": "PVR: Infiniti, Malad Mumbai",
+      "time": "10:50 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMRL|103716|20261125|Tickets": {
+      "venue": "INOX: Raghuleela Mall, Kandivali (W)",
+      "time": "09:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMRL|103721|20261125|Tickets": {
+      "venue": "INOX: Raghuleela Mall, Kandivali (W)",
+      "time": "10:05 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMRL|103718|20261125|Tickets": {
+      "venue": "INOX: Raghuleela Mall, Kandivali (W)",
+      "time": "04:05 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FMRL|103720|20261125|Tickets": {
+      "venue": "INOX: Raghuleela Mall, Kandivali (W)",
+      "time": "11:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MDVA|86347|20261125|Tickets": {
+      "venue": "Miraj Cinemas: Dattani Mall, Vasai (W)",
+      "time": "09:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IPBG|62151|20261125|Tickets": {
+      "venue": "INOX: Palm Beach Galleria Mall, Navi Mumbai",
+      "time": "10:10 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IPBG|62152|20261125|Tickets": {
+      "venue": "INOX: Palm Beach Galleria Mall, Navi Mumbai",
+      "time": "02:05 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IPBG|62153|20261125|Tickets": {
+      "venue": "INOX: Palm Beach Galleria Mall, Navi Mumbai",
+      "time": "06:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IPBG|62154|20261125|Tickets": {
+      "venue": "INOX: Palm Beach Galleria Mall, Navi Mumbai",
+      "time": "09:55 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "POLM|25682|20261125|Tickets": {
+      "venue": "PVR: Odeon Mall, Ghatkopar",
+      "time": "09:15 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "POLM|25673|20261125|Tickets": {
+      "venue": "PVR: Odeon Mall, Ghatkopar",
+      "time": "10:15 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "POLM|25684|20261125|Tickets": {
+      "venue": "PVR: Odeon Mall, Ghatkopar",
+      "time": "04:35 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "POLM|25685|20261125|Tickets": {
+      "venue": "PVR: Odeon Mall, Ghatkopar",
+      "time": "08:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "POLM|25677|20261125|Tickets": {
+      "venue": "PVR: Odeon Mall, Ghatkopar",
+      "time": "11:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FNCM|9969|20261125|Tickets": {
+      "venue": "Fun Cinemas: K Star Mall, Chembur",
+      "time": "10:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FNCM|9970|20261125|Tickets": {
+      "venue": "Fun Cinemas: K Star Mall, Chembur",
+      "time": "01:55 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FNCM|9971|20261125|Tickets": {
+      "venue": "Fun Cinemas: K Star Mall, Chembur",
+      "time": "05:50 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FNCM|9972|20261125|Tickets": {
+      "venue": "Fun Cinemas: K Star Mall, Chembur",
+      "time": "09:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PRCW|36073|20261125|Tickets": {
+      "venue": "PVR ICON: Infiniti Andheri (W)",
+      "time": "10:10 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PRCW|36015|20261125|Tickets": {
+      "venue": "PVR ICON: Infiniti Andheri (W)",
+      "time": "03:10 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PRCW|36017|20261125|Tickets": {
+      "venue": "PVR ICON: Infiniti Andheri (W)",
+      "time": "11:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "DCTW|7081|20261125|Tickets": {
+      "venue": "Devgn CineX: The Walk, Thane",
+      "time": "10:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "DCTW|7072|20261125|Tickets": {
+      "venue": "Devgn CineX: The Walk, Thane",
+      "time": "10:30 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "DCTW|7073|20261125|Tickets": {
+      "venue": "Devgn CineX: The Walk, Thane",
+      "time": "02:20 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "DCTW|7074|20261125|Tickets": {
+      "venue": "Devgn CineX: The Walk, Thane",
+      "time": "06:40 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "DCTW|7075|20261125|Tickets": {
+      "venue": "Devgn CineX: The Walk, Thane",
+      "time": "10:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MIDO|33230|20261125|Tickets": {
+      "venue": "Miraj Cinemas: Dombivali (E)",
+      "time": "10:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PITI|33700|20261125|Tickets": {
+      "venue": "PVR: Citi Mall, Andheri (W)",
+      "time": "08:15 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PITI|33703|20261125|Tickets": {
+      "venue": "PVR: Citi Mall, Andheri (W)",
+      "time": "06:05 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PITI|33704|20261125|Tickets": {
+      "venue": "PVR: Citi Mall, Andheri (W)",
+      "time": "10:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PVWJ|33243|20261125|Tickets": {
+      "venue": "Maison PVR: Jio World Drive, Mumbai",
+      "time": "08:15 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PVWJ|33244|20261125|Tickets": {
+      "venue": "Maison PVR: Jio World Drive, Mumbai",
+      "time": "12:05 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PVWJ|33247|20261125|Tickets": {
+      "venue": "Maison PVR: Jio World Drive, Mumbai",
+      "time": "10:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MCAA|54485|20261125|Tickets": {
+      "venue": "Miraj Cinemas: Ashok Anil Multiplex, Ulhasnagar",
+      "time": "01:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MCAA|54489|20261125|Tickets": {
+      "venue": "Miraj Cinemas: Ashok Anil Multiplex, Ulhasnagar",
+      "time": "05:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MCAA|54490|20261125|Tickets": {
+      "venue": "Miraj Cinemas: Ashok Anil Multiplex, Ulhasnagar",
+      "time": "09:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IMJW|36483|20261125|Tickets": {
+      "venue": "Maison INOX: Jio World Plaza, BKC",
+      "time": "10:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IMJW|36485|20261125|Tickets": {
+      "venue": "Maison INOX: Jio World Plaza, BKC",
+      "time": "05:05 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IMJW|36532|20261125|Tickets": {
+      "venue": "Maison INOX: Jio World Plaza, BKC",
+      "time": "10:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MUCK|7155|20261125|Tickets": {
+      "venue": "Mukta A2 Cinemas: Triveni Grande, Kalyan (West)",
+      "time": "03:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MUCK|7157|20261125|Tickets": {
+      "venue": "Mukta A2 Cinemas: Triveni Grande, Kalyan (West)",
+      "time": "10:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MACE|36163|20261125|Tickets": {
+      "venue": "Miraj Cinemas: Anupam Mall Goregaon (E)",
+      "time": "10:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MACE|36164|20261125|Tickets": {
+      "venue": "Miraj Cinemas: Anupam Mall Goregaon (E)",
+      "time": "02:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "INNP|125660|20261125|Tickets": {
+      "venue": "INOX Laserplex: CR2, Nariman Point",
+      "time": "10:15 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "INNP|125662|20261125|Tickets": {
+      "venue": "INOX Laserplex: CR2, Nariman Point",
+      "time": "06:05 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "HPVR|23627|20261125|Tickets": {
+      "venue": "PVR: Haseen, Bhiwandi",
+      "time": "08:10 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "HPVR|23645|20261125|Tickets": {
+      "venue": "PVR: Haseen, Bhiwandi",
+      "time": "09:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "HPVR|23628|20261125|Tickets": {
+      "venue": "PVR: Haseen, Bhiwandi",
+      "time": "12:05 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "HPVR|23630|20261125|Tickets": {
+      "venue": "PVR: Haseen, Bhiwandi",
+      "time": "07:20 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "HPVR|23649|20261125|Tickets": {
+      "venue": "PVR: Haseen, Bhiwandi",
+      "time": "10:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "HPVR|23631|20261125|Tickets": {
+      "venue": "PVR: Haseen, Bhiwandi",
+      "time": "11:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "RCHG|15696|20261125|Tickets": {
+      "venue": "Rajhans Cinemas: Helix 3, Ghatkopar (W)",
+      "time": "01:25 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "RCHG|15698|20261125|Tickets": {
+      "venue": "Rajhans Cinemas: Helix 3, Ghatkopar (W)",
+      "time": "08:55 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PMPK|12196|20261125|Tickets": {
+      "venue": "PVR: Milap, Kandivali (W)",
+      "time": "10:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PMPK|12197|20261125|Tickets": {
+      "venue": "PVR: Milap, Kandivali (W)",
+      "time": "01:55 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PMPK|12199|20261125|Tickets": {
+      "venue": "PVR: Milap, Kandivali (W)",
+      "time": "09:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PLUS|17133|20261125|Tickets": {
+      "venue": "PVR: Lido, Juhu Mumbai",
+      "time": "11:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CPVV|7043|20261125|Tickets": {
+      "venue": "Cinepolis: VIP Lake Shore, Thane (EX Viviana Mall)",
+      "time": "10:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CPVV|7044|20261125|Tickets": {
+      "venue": "Cinepolis: VIP Lake Shore, Thane (EX Viviana Mall)",
+      "time": "02:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CPVV|7045|20261125|Tickets": {
+      "venue": "Cinepolis: VIP Lake Shore, Thane (EX Viviana Mall)",
+      "time": "06:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CPVV|7046|20261125|Tickets": {
+      "venue": "Cinepolis: VIP Lake Shore, Thane (EX Viviana Mall)",
+      "time": "10:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "GOCS|17680|20261125|Tickets": {
+      "venue": "Gold Cinema: Santacruz (W)",
+      "time": "02:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "GOCS|17681|20261125|Tickets": {
+      "venue": "Gold Cinema: Santacruz (W)",
+      "time": "06:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "2"
+    },
+    "GOCS|17682|20261125|Tickets": {
+      "venue": "Gold Cinema: Santacruz (W)",
+      "time": "10:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "GCMG|51953|20261125|Tickets": {
+      "venue": "Gold Cinema: Malad Malvani",
+      "time": "01:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXSN|187778|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Saki Naka",
+      "time": "09:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXSN|187798|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Saki Naka",
+      "time": "10:15 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXSN|187762|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Saki Naka",
+      "time": "11:30 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXSN|187782|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Saki Naka",
+      "time": "12:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXSN|187786|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Saki Naka",
+      "time": "04:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXSN|187770|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Saki Naka",
+      "time": "07:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXSN|187790|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Saki Naka",
+      "time": "08:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MXSN|187794|20261125|Tickets": {
+      "venue": "Maxus Cinemas: Saki Naka",
+      "time": "11:55 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PZCD|14498|20261125|Tickets": {
+      "venue": "Plaza Cinema: Dadar",
+      "time": "03:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PZCD|14506|20261125|Tickets": {
+      "venue": "Plaza Cinema: Dadar",
+      "time": "09:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "RSMI|167787|20261125|Tickets": {
+      "venue": "Rassaz Multiplex: Mira Road",
+      "time": "03:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "RSMI|167793|20261125|Tickets": {
+      "venue": "Rassaz Multiplex: Mira Road",
+      "time": "11:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MCAN|49581|20261125|Tickets": {
+      "venue": "Miraj Cinemas: Star, Ambernath (Newly Renovated)",
+      "time": "09:15 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MCAN|49571|20261125|Tickets": {
+      "venue": "Miraj Cinemas: Star, Ambernath (Newly Renovated)",
+      "time": "11:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MCAN|49576|20261125|Tickets": {
+      "venue": "Miraj Cinemas: Star, Ambernath (Newly Renovated)",
+      "time": "11:20 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MCAN|49572|20261125|Tickets": {
+      "venue": "Miraj Cinemas: Star, Ambernath (Newly Renovated)",
+      "time": "03:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MCAN|49573|20261125|Tickets": {
+      "venue": "Miraj Cinemas: Star, Ambernath (Newly Renovated)",
+      "time": "07:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MCAN|49574|20261125|Tickets": {
+      "venue": "Miraj Cinemas: Star, Ambernath (Newly Renovated)",
+      "time": "11:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "KTMV|21909|20261125|Tickets": {
+      "venue": "KT Vision Cinema: Vasai (Screens)",
+      "time": "11:15 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "KTMV|21929|20261125|Tickets": {
+      "venue": "KT Vision Cinema: Vasai (Screens)",
+      "time": "12:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "KTMV|21930|20261125|Tickets": {
+      "venue": "KT Vision Cinema: Vasai (Screens)",
+      "time": "04:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "KTMV|21931|20261125|Tickets": {
+      "venue": "KT Vision Cinema: Vasai (Screens)",
+      "time": "09:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IRGT|48085|20261125|Tickets": {
+      "venue": "INOX: Insignia at R Mall, Thane",
+      "time": "09:15 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IRGT|48086|20261125|Tickets": {
+      "venue": "INOX: Insignia at R Mall, Thane",
+      "time": "01:10 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IRGT|48087|20261125|Tickets": {
+      "venue": "INOX: Insignia at R Mall, Thane",
+      "time": "05:05 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "IRGT|48088|20261125|Tickets": {
+      "venue": "INOX: Insignia at R Mall, Thane",
+      "time": "09:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "GATY|94553|20261125|Tickets": {
+      "venue": "G7 Multiplex: Bandra (W)",
+      "time": "01:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "GATY|94554|20261125|Tickets": {
+      "venue": "G7 Multiplex: Bandra (W)",
+      "time": "05:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "GATY|94555|20261125|Tickets": {
+      "venue": "G7 Multiplex: Bandra (W)",
+      "time": "09:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "WAML|81757|20261125|Tickets": {
+      "venue": "INOX: Insignia at Atria Mall, Worli",
+      "time": "10:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "WAML|81759|20261125|Tickets": {
+      "venue": "INOX: Insignia at Atria Mall, Worli",
+      "time": "05:50 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "WAML|81760|20261125|Tickets": {
+      "venue": "INOX: Insignia at Atria Mall, Worli",
+      "time": "09:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "RGCM|11583|20261125|Tickets": {
+      "venue": "Regal Cinema: Colaba",
+      "time": "02:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "RGCM|11584|20261125|Tickets": {
+      "venue": "Regal Cinema: Colaba",
+      "time": "06:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "RGCM|11585|20261125|Tickets": {
+      "venue": "Regal Cinema: Colaba",
+      "time": "09:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FQSA|7052|20261125|Tickets": {
+      "venue": "Fun Square Cinema: Sanpada",
+      "time": "12:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FQSA|7051|20261125|Tickets": {
+      "venue": "Fun Square Cinema: Sanpada",
+      "time": "03:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FQSA|7053|20261125|Tickets": {
+      "venue": "Fun Square Cinema: Sanpada",
+      "time": "06:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "FQSA|7054|20261125|Tickets": {
+      "venue": "Fun Square Cinema: Sanpada",
+      "time": "09:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CNTX|7111|20261125|Tickets": {
+      "venue": "ICONIX CINEMAS: (OLD AARADHANA TALKIES) THANE",
+      "time": "11:15 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MMMC|15022|20261125|Tickets": {
+      "venue": "Maratha Mandir: Mumbai Central (Metro At DoorStep)",
+      "time": "03:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MMMC|15023|20261125|Tickets": {
+      "venue": "Maratha Mandir: Mumbai Central (Metro At DoorStep)",
+      "time": "09:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "KMMV|212638|20261125|Tickets": {
+      "venue": "K Movie Star Multiplex: Vasai (W)",
+      "time": "10:00 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "KMMV|212639|20261125|Tickets": {
+      "venue": "K Movie Star Multiplex: Vasai (W)",
+      "time": "02:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "KMMV|212640|20261125|Tickets": {
+      "venue": "K Movie Star Multiplex: Vasai (W)",
+      "time": "05:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "KMMV|212641|20261125|Tickets": {
+      "venue": "K Movie Star Multiplex: Vasai (W)",
+      "time": "09:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "KURL|47466|20261125|Tickets": {
+      "venue": "Bharat Cineplex: Kurla (W)",
+      "time": "12:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "KURL|47491|20261125|Tickets": {
+      "venue": "Bharat Cineplex: Kurla (W)",
+      "time": "03:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "KURL|47469|20261125|Tickets": {
+      "venue": "Bharat Cineplex: Kurla (W)",
+      "time": "06:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "KURL|47488|20261125|Tickets": {
+      "venue": "Bharat Cineplex: Kurla (W)",
+      "time": "10:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MMCV|141407|20261125|Tickets": {
+      "venue": "Movie Max V Cinema: Virar (E)",
+      "time": "02:30 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MMCV|141435|20261125|Tickets": {
+      "venue": "Movie Max V Cinema: Virar (E)",
+      "time": "05:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "MMCV|141442|20261125|Tickets": {
+      "venue": "Movie Max V Cinema: Virar (E)",
+      "time": "09:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "SCVP|40287|20261125|Tickets": {
+      "venue": "1 Cinema: Suncity (Newly Renovated)",
+      "time": "09:30 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "SCVP|40289|20261125|Tickets": {
+      "venue": "1 Cinema: Suncity (Newly Renovated)",
+      "time": "04:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "SCVP|40291|20261125|Tickets": {
+      "venue": "1 Cinema: Suncity (Newly Renovated)",
+      "time": "10:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CZSM|213|20261125|Tickets": {
+      "venue": "Cinepolis Shaan: Vile Parle East",
+      "time": "09:30 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "CZSM|216|20261125|Tickets": {
+      "venue": "Cinepolis Shaan: Vile Parle East",
+      "time": "10:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "WCVR|28409|20261125|Tickets": {
+      "venue": "Woodland Cinemas: Virar (W)",
+      "time": "12:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "WCVR|28395|20261125|Tickets": {
+      "venue": "Woodland Cinemas: Virar (W)",
+      "time": "04:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "WCVR|28402|20261125|Tickets": {
+      "venue": "Woodland Cinemas: Virar (W)",
+      "time": "09:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "VVVM|17002|20261125|Tickets": {
+      "venue": "Vaishali Cinema: Badlapur",
+      "time": "11:15 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "VVVM|16984|20261125|Tickets": {
+      "venue": "Vaishali Cinema: Badlapur",
+      "time": "02:45 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "VVVM|16990|20261125|Tickets": {
+      "venue": "Vaishali Cinema: Badlapur",
+      "time": "06:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "VVVM|16996|20261125|Tickets": {
+      "venue": "Vaishali Cinema: Badlapur",
+      "time": "09:15 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PJDW|1536|20261125|Tickets": {
+      "venue": "Maison PVR: Jio World Drive-IN, Mumbai",
+      "time": "08:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "VECU|16942|20261125|Tickets": {
+      "venue": "Venus Cinema: Ulhasnagar",
+      "time": "11:40 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "VECU|16954|20261125|Tickets": {
+      "venue": "Venus Cinema: Ulhasnagar",
+      "time": "03:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "VECU|16960|20261125|Tickets": {
+      "venue": "Venus Cinema: Ulhasnagar",
+      "time": "06:20 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "VECU|16948|20261125|Tickets": {
+      "venue": "Venus Cinema: Ulhasnagar",
+      "time": "09:40 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "NNNX|142995|20261125|Tickets": {
+      "venue": "Nazrana Cinema: Bhiwandi",
+      "time": "11:45 AM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "NNNX|143002|20261125|Tickets": {
+      "venue": "Nazrana Cinema: Bhiwandi",
+      "time": "03:00 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "NNNX|143009|20261125|Tickets": {
+      "venue": "Nazrana Cinema: Bhiwandi",
+      "time": "06:20 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "NNNX|143016|20261125|Tickets": {
+      "venue": "Nazrana Cinema: Bhiwandi",
+      "time": "09:40 PM",
+      "date": "20261125",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    }
+  },
   "dates": {
     "20261124": "AVAILABLE",
     "20261125": "BOOKABLE",
