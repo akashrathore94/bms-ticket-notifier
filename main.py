@@ -118,22 +118,30 @@ def parse_bms_url(url):
 
 
 
+
 def resolve_region(slug):
     key = (slug or "").lower().strip()
 
-    aliases = {
-        "national-capital-region-ncr": "national-capital-region-ncr",
-        "delhi-ncr": "delhi-ncr",
-        "delhi": "delhi",
-    }
+    # Delhi NCR
+    if key in (
+        "national-capital-region-ncr",
+        "delhi-ncr",
+        "delhi"
+    ):
+        return (
+            "NCR",
+            "national-capital-region-ncr",
+            "28.613",
+            "77.209",
+            "ttn"
+        )
 
-    key = aliases.get(key, key)
-
+    # Other configured regions
     if key in REGION_MAP:
         return REGION_MAP[key]
 
-    print(f"WARNING: Unknown BMS region slug: {key}")
-    return (key.upper()[:6], key, "0", "0", "")
+    raise ValueError(f"Unknown BMS region slug: {key}")
+
 
 
 
