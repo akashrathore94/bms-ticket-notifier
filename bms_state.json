@@ -1,36 +1,11 @@
 {
-  "shows": {
-    "PVPU|6344|20261125|Tickets": {
-      "venue": "PVR IMAX with Laser, Priya: Delhi",
-      "time": "09:50 AM",
-      "date": "20261125",
-      "cat": "Tickets",
-      "price": "0",
-      "status": "2"
-    },
-    "PVPU|6346|20261125|Tickets": {
-      "venue": "PVR IMAX with Laser, Priya: Delhi",
-      "time": "04:45 PM",
-      "date": "20261125",
-      "cat": "Tickets",
-      "price": "0",
-      "status": "1"
-    },
-    "PVPU|6348|20261125|Tickets": {
-      "venue": "PVR IMAX with Laser, Priya: Delhi",
-      "time": "11:20 PM",
-      "date": "20261125",
-      "cat": "Tickets",
-      "price": "0",
-      "status": "2"
-    }
-  },
+  "shows": {},
   "dates": {
     "20261124": "AVAILABLE",
-    "20261125": "BOOKABLE",
+    "20261125": "AVAILABLE",
     "20261126": "AVAILABLE",
     "20261127": "AVAILABLE",
-    "20261128": "AVAILABLE",
+    "20261128": "BOOKABLE",
     "20261129": "AVAILABLE",
     "20261130": "NOT_OPEN"
   }
