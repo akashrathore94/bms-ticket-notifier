@@ -17,19 +17,16 @@ from urllib.parse import urlparse
 import requests
 
 # ──────────────────────────────────────────────────────────────────────
-
 # CONFIGURATION — edit these or set via env vars
-
 # ──────────────────────────────────────────────────────────────────────
-
 CONFIG = {
-"url": os.getenv(
-"BMS_URL",
-"https://in.bookmyshow.com/movies/chennai/dhurandhar-the-revenge/buytickets/ET00478890"
-),
-"dates": os.getenv("BMS_DATES", ""), # comma-separated YYYYMMDD, empty = from URL
-"theatre": os.getenv("BMS_THEATRE", ""), # substring filter, empty = all
-"time_period": os.getenv("BMS_TIME", ""), # e.g. "evening,night", empty = all
+    "url": os.getenv(
+        "BMS_URL",
+        "https://in.bookmyshow.com/movies/chennai/dhurandhar-the-revenge/buytickets/ET00478890"
+    ),
+    "dates": os.getenv("BMS_DATES", ""),          # comma-separated YYYYMMDD, empty = from URL
+    "theatre": os.getenv("BMS_THEATRE", ""),       # substring filter, empty = all
+    "time_period": os.getenv("BMS_TIME", ""),      # e.g. "evening,night", empty = all
 }
 
 RESEND_API_KEY = os.getenv("RESEND_API_KEY", "")
@@ -39,209 +36,200 @@ RESEND_FROM_EMAIL = os.getenv("RESEND_FROM_EMAIL", "aviiciii@resend.dev")
 STATE_FILE = "bms_state.json"
 
 # ──────────────────────────────────────────────────────────────────────
-
 # CONSTANTS
-
 # ──────────────────────────────────────────────────────────────────────
-
 AVAIL_STATUS_MAP = {
-"0": ("SOLD OUT", "🔴"),
-"1": ("ALMOST FULL", "🟡"),
-"2": ("FILLING FAST","🟠"),
-"3": ("AVAILABLE", "🟢"),
+    "0": ("SOLD OUT",    "🔴"),
+    "1": ("ALMOST FULL", "🟡"),
+    "2": ("FILLING FAST","🟠"),
+    "3": ("AVAILABLE",   "🟢"),
 }
 
 DATE_STYLE_MAP = {
-"date-selected": "BOOKABLE",
-"date-disabled": "NOT_OPEN",
-"date-default": "AVAILABLE",
+    "date-selected": "BOOKABLE",
+    "date-disabled": "NOT_OPEN",
+    "date-default":  "AVAILABLE",
 }
 
 TIME_PERIODS = {
-"morning": (600, 1200),
-"afternoon": (1200, 1600),
-"evening": (1600, 1900),
-"night": (1900, 2400),
+    "morning":   (600, 1200),
+    "afternoon": (1200, 1600),
+    "evening":   (1600, 1900),
+    "night":     (1900, 2400),
 }
 
 REGION_MAP = {
-"chennai": ("CHEN", "chennai", "13.056", "80.206", "tf3"),
-"mumbai": ("MUMBAI", "mumbai", "19.076", "72.878", "te7"),
-"delhi-ncr": ("NCR", "delhi-ncr", "28.613", "77.209", "ttn"),
-"delhi": ("NCR", "delhi-ncr", "28.613", "77.209", "ttn"),
-"bengaluru": ("BANG", "bengaluru", "12.972", "77.594", "tdr"),
-"bangalore": ("BANG", "bengaluru", "12.972", "77.594", "tdr"),
-"hyderabad": ("HYD", "hyderabad", "17.385", "78.487", "tep"),
-"kolkata": ("KOLK", "kolkata", "22.573", "88.364", "tun"),
-"pune": ("PUNE", "pune", "18.520", "73.856", "te2"),
-"kochi": ("KOCH", "kochi", "9.932", "76.267", "t9z"),
-"national-capital-region-ncr": ("NCR", "national-capital-region-ncr", "28.613", "77.209", "ttn"),
+    "chennai":    ("CHEN",   "chennai",    "13.056", "80.206", "tf3"),
+    "mumbai":     ("MUMBAI", "mumbai",     "19.076", "72.878", "te7"),
+    "delhi-ncr":  ("NCR",    "delhi-ncr",  "28.613", "77.209", "ttn"),
+    "delhi":      ("NCR",    "delhi-ncr",  "28.613", "77.209", "ttn"),
+    "bengaluru":  ("BANG",   "bengaluru",  "12.972", "77.594", "tdr"),
+    "bangalore":  ("BANG",   "bengaluru",  "12.972", "77.594", "tdr"),
+    "hyderabad":  ("HYD",    "hyderabad",  "17.385", "78.487", "tep"),
+    "kolkata":    ("KOLK",   "kolkata",    "22.573", "88.364", "tun"),
+    "pune":       ("PUNE",   "pune",       "18.520", "73.856", "te2"),
+    "kochi":      ("KOCH",   "kochi",      "9.932",  "76.267", "t9z"),
 }
 
+
 # ─────────────────────────────────────���────────────────────────────────
-
 # DATA
-
 # ──────────────────────────────────────────────────────────────────────
-
 @dataclass
 class CatInfo:
-name: str
-price: str
-status: str
+    name: str
+    price: str
+    status: str
 
 @dataclass
 class ShowInfo:
-venue_code: str
-venue_name: str
-session_id: str
-date_code: str
-time: str
-time_code: str
-screen_attr: str
-categories: list[CatInfo] = field(default_factory=list)
+    venue_code: str
+    venue_name: str
+    session_id: str
+    date_code: str
+    time: str
+    time_code: str
+    screen_attr: str
+    categories: list[CatInfo] = field(default_factory=list)
 
 @dataclass
 class DateInfo:
-date_code: str
-status: str
+    date_code: str
+    status: str
+
 
 # ──────────────────────────────────────────────────────────────────────
-
 # URL PARSER + REGION RESOLVER
-
 # ──────────────────────────────────────────────────────────────────────
-
 def parse_bms_url(url):
-path = urlparse(url).path.strip("/")
-parts = path.split("/")
-result = {"event_code": None, "date_code": None, "region_slug": None}
-for p in parts:
-if re.match(r"^ET\d{8,}$", p):
+    path = urlparse(url).path.strip("/")
+    parts = path.split("/")
+    result = {"event_code": None, "date_code": None, "region_slug": None}
+    for p in parts:
+        if re.match(r"^ET\d{8,}$", p):
             result["event_code"] = p
         elif re.match(r"^\d{8}$", p):
-result["date_code"] = p
-if "movies" in parts:
-idx = parts.index("movies")
-if idx + 1 < len(parts):
-result["region_slug"] = parts[idx + 1]
-return result
+            result["date_code"] = p
+    if "movies" in parts:
+        idx = parts.index("movies")
+        if idx + 1 < len(parts):
+            result["region_slug"] = parts[idx + 1]
+    return result
+
 
 def resolve_region(slug):
-key = (slug or "").lower().strip()
-if key in REGION_MAP:
-return REGION_MAP[key]
-return (key.upper()[:6], key, "0", "0", "")
+    key = (slug or "").lower().strip()
+    if key in REGION_MAP:
+        return REGION_MAP[key]
+    return (key.upper()[:6], key, "0", "0", "")
+
 
 # ──────────────────────────────────────────────────────────────────────
-
 # BMS API
-
 # ──────────────────────────────────────────────────────────────────────
-
 API_URL = (
-"https://in.bookmyshow.com/api/movies-data/v4/"
-"showtimes-by-event/primary-dynamic"
+    "https://in.bookmyshow.com/api/movies-data/v4/"
+    "showtimes-by-event/primary-dynamic"
 )
 
-def fetch*bms(event_code, date_code, region_code, region_slug,
-lat, lon, geohash):
-headers = {
-"User-Agent": (
-"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-"AppleWebKit/537.36 (KHTML, like Gecko) "
-"Chrome/145.0.0.0 Safari/537.36"
-),
-"Accept": "application/json, text/plain, */\_",
-"Accept-Language": "en-US,en;q=0.9",
-"Referer": (
-f"https://in.bookmyshow.com/movies/"
-f"{region_slug}/buytickets/{event_code}/"
-),
-"sec-ch-ua": '"Chromium";v="145", "Not:A-Brand";v="99"',
-"sec-ch-ua-mobile": "?0",
-"sec-ch-ua-platform": '"macOS"',
-"x-app-code": "WEB",
-"x-region-code": region_code,
-"x-region-slug": region_slug,
-"x-geohash": geohash,
-"x-latitude": lat,
-"x-longitude": lon,
-"x-location-selection": "manual",
-"x-lsid": "",
-}
-params = {
-"eventCode": event_code,
-"dateCode": date_code or "",
-"isDesktop": "true",
-"regionCode": region_code,
-"xLocationShared": "false",
-"memberId": "", "lsId": "", "subCode": "",
-"lat": lat, "lon": lon,
-}
-try:
-resp = requests.get(API_URL, headers=headers,
-params=params, timeout=15)
-if resp.status_code == 200:
-return resp.json()
-print(f" HTTP {resp.status_code}")
-print(f" Response: {resp.text[:500]}")
-except requests.RequestException as e:
-print(f" Request failed: {e}")
-return None
+
+def fetch_bms(event_code, date_code, region_code, region_slug,
+              lat, lon, geohash):
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/145.0.0.0 Safari/537.36"
+        ),
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": (
+            f"https://in.bookmyshow.com/movies/"
+            f"{region_slug}/buytickets/{event_code}/"
+        ),
+        "sec-ch-ua": '"Chromium";v="145", "Not:A-Brand";v="99"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": '"macOS"',
+        "x-app-code": "WEB",
+        "x-region-code": region_code,
+        "x-region-slug": region_slug,
+        "x-geohash": geohash,
+        "x-latitude": lat,
+        "x-longitude": lon,
+        "x-location-selection": "manual",
+        "x-lsid": "",
+    }
+    params = {
+        "eventCode": event_code,
+        "dateCode": date_code or "",
+        "isDesktop": "true",
+        "regionCode": region_code,
+        "xLocationShared": "false",
+        "memberId": "", "lsId": "", "subCode": "",
+        "lat": lat, "lon": lon,
+    }
+    try:
+        resp = requests.get(API_URL, headers=headers,
+                            params=params, timeout=15)
+        if resp.status_code == 200:
+            return resp.json()
+        print(f"  HTTP {resp.status_code}")
+    except requests.RequestException as e:
+        print(f"  Request failed: {e}")
+    return None
+
 
 # ──────────────────────────────────────────────────────────────────────
-
 # PARSERS
-
 # ──────────────────────────────────────────────────────────────────────
-
 def parse_movie_info(data):
-info = {"name": "Unknown Movie", "language": ""}
-for w in data.get("data", {}).get("topStickyWidgets", []):
-if w.get("type") == "horizontal-text-list":
-for item in w.get("data", []):
-for row in item.get("leftText", {}).get("data", []):
-for c in row.get("components", []):
-if "•" in c.get("text", ""):
-info["language"] = c["text"].strip()
-bs = data.get("data", {}).get("bottomSheetData", {})
-for w in bs.get("format-selector", {}).get("widgets", []):
-if w.get("type") == "vertical-text-list":
-for d in w.get("data", []):
-if d.get("styleId") == "bottomsheet-subtitle":
-info["name"] = d.get("text", info["name"])
-return info
+    info = {"name": "Unknown Movie", "language": ""}
+    for w in data.get("data", {}).get("topStickyWidgets", []):
+        if w.get("type") == "horizontal-text-list":
+            for item in w.get("data", []):
+                for row in item.get("leftText", {}).get("data", []):
+                    for c in row.get("components", []):
+                        if "•" in c.get("text", ""):
+                            info["language"] = c["text"].strip()
+    bs = data.get("data", {}).get("bottomSheetData", {})
+    for w in bs.get("format-selector", {}).get("widgets", []):
+        if w.get("type") == "vertical-text-list":
+            for d in w.get("data", []):
+                if d.get("styleId") == "bottomsheet-subtitle":
+                    info["name"] = d.get("text", info["name"])
+    return info
+
 
 def parse_dates(data):
-dates = []
-for w in data.get("data", {}).get("topStickyWidgets", []):
-if w.get("type") != "horizontal-block-list":
-continue
-for item in w.get("data", []):
-texts = item.get("data", [])
-if len(texts) >= 3:
-style = item.get("styleId", "")
-dates.append(DateInfo(
-date_code=item.get("id", ""),
-status=DATE_STYLE_MAP.get(style, "UNKNOWN"),
-))
-return dates
+    dates = []
+    for w in data.get("data", {}).get("topStickyWidgets", []):
+        if w.get("type") != "horizontal-block-list":
+            continue
+        for item in w.get("data", []):
+            texts = item.get("data", [])
+            if len(texts) >= 3:
+                style = item.get("styleId", "")
+                dates.append(DateInfo(
+                    date_code=item.get("id", ""),
+                    status=DATE_STYLE_MAP.get(style, "UNKNOWN"),
+                ))
+    return dates
+
 
 def parse_shows(data):
-shows = []
-for w in data.get("data", {}).get("showtimeWidgets", []):
-if w.get("type") != "groupList":
-continue
-for g in w.get("data", []):
-if g.get("type") != "venueGroup":
-continue
-for card in g.get("data", []):
-if card.get("type") != "venue-card":
-continue
-addl = card.get("additionalData", {})
-vname = addl.get("venueName", "Unknown")
-vcode = addl.get("venueCode", "")
+    shows = []
+    for w in data.get("data", {}).get("showtimeWidgets", []):
+        if w.get("type") != "groupList":
+            continue
+        for g in w.get("data", []):
+            if g.get("type") != "venueGroup":
+                continue
+            for card in g.get("data", []):
+                if card.get("type") != "venue-card":
+                    continue
+                addl = card.get("additionalData", {})
+                vname = addl.get("venueName", "Unknown")
+                vcode = addl.get("venueCode", "")
 
                 for st in card.get("showtimes", []):
                     sa = st.get("additionalData", {})
@@ -274,20 +262,18 @@ vcode = addl.get("venueCode", "")
                     shows.append(show)
     return shows
 
-# ──────────────────────────────────────────────────────────────────────
 
+# ──────────────────────────────────────────────────────────────────────
 # FILTERING
-
 # ──────────────────────────────────────────────────────────────────────
-
 def filter_shows(shows, theatre_filter, time_periods, date_codes):
-result = []
-kws = [k.strip().lower() for k in theatre_filter.split(",")
-if k.strip()] if theatre_filter else []
-periods = [p.strip().lower() for p in time_periods.split(",")
-if p.strip()] if time_periods else []
-dates_set = set(d.strip() for d in date_codes.split(",")
-if d.strip()) if date_codes else set()
+    result = []
+    kws = [k.strip().lower() for k in theatre_filter.split(",")
+           if k.strip()] if theatre_filter else []
+    periods = [p.strip().lower() for p in time_periods.split(",")
+               if p.strip()] if time_periods else []
+    dates_set = set(d.strip() for d in date_codes.split(",")
+                    if d.strip()) if date_codes else set()
 
     for s in shows:
         # Theatre filter
@@ -319,37 +305,37 @@ if d.strip()) if date_codes else set()
         result.append(s)
     return result
 
-# ──────────────────────────────────────────────────────────────────────
 
+# ──────────────────────────────────────────────────────────────────────
 # STATE (for change detection between runs)
-
 # ──────────────────────────────────────────────────────────────────────
-
 def load_state():
-try:
-with open(STATE_FILE) as f:
-return json.load(f)
-except (FileNotFoundError, json.JSONDecodeError):
-return {}
+    try:
+        with open(STATE_FILE) as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
 
 def save_state(state):
-with open(STATE_FILE, "w") as f:
-json.dump(state, f, indent=2)
+    with open(STATE_FILE, "w") as f:
+        json.dump(state, f, indent=2)
+
 
 def build_state(shows, dates):
-"""Build a comparable state dict."""
-show_state = {}
-for s in shows:
-for c in s.categories:
-key = f"{s.venue_code}|{s.session_id}|{s.date_code}|{c.name}"
-show_state[key] = {
-"venue": s.venue_name,
-"time": s.time,
-"date": s.date_code,
-"cat": c.name,
-"price": c.price,
-"status": c.status,
-}
+    """Build a comparable state dict."""
+    show_state = {}
+    for s in shows:
+        for c in s.categories:
+            key = f"{s.venue_code}|{s.session_id}|{s.date_code}|{c.name}"
+            show_state[key] = {
+                "venue": s.venue_name,
+                "time": s.time,
+                "date": s.date_code,
+                "cat": c.name,
+                "price": c.price,
+                "status": c.status,
+            }
 
     date_state = {
         d.date_code: d.status for d in dates
@@ -357,8 +343,9 @@ show_state[key] = {
 
     return {"shows": show_state, "dates": date_state}
 
+
 def detect_changes(old_state, new_state):
-changes = []
+    changes = []
 
     # New dates opening
     old_dates = old_state.get("dates", {})
@@ -394,19 +381,18 @@ changes = []
 
     return changes
 
-# ──────────────────────────────────────────────────────────────────────
 
+# ──────────────────────────────────────────────────────────────────────
 # EMAIL NOTIFICATION (Resend)
-
 # ──────────────────────────────────────────────────────────────────────
+def _cat_status_label(status):
+    return AVAIL_STATUS_MAP.get(status, ("UNKNOWN", ""))[0]
 
-def \_cat_status_label(status):
-return AVAIL_STATUS_MAP.get(status, ("UNKNOWN", ""))[0]
 
 def send_email(subject, changes, shows, movie_info):
-api_key = RESEND_API_KEY.strip()
-to = RESEND_TO_EMAIL.strip()
-frm = RESEND_FROM_EMAIL.strip() or "onboarding@resend.dev"
+    api_key = RESEND_API_KEY.strip()
+    to = RESEND_TO_EMAIL.strip()
+    frm = RESEND_FROM_EMAIL.strip() or "onboarding@resend.dev"
 
     if not api_key or not to:
         print("  ⚠️  Skipping email — RESEND_API_KEY or RESEND_TO_EMAIL not set.")
@@ -470,7 +456,6 @@ frm = RESEND_FROM_EMAIL.strip() or "onboarding@resend.dev"
         </table>"""
 
     html = f"""<!doctype html>
-
 <html>
 <head><meta charset="utf-8"></head>
 <body style="margin:0;padding:24px;font-family:Arial,Helvetica,sans-serif;
@@ -535,15 +520,13 @@ frm = RESEND_FROM_EMAIL.strip() or "onboarding@resend.dev"
         print(f"  ❌ Email failed: {e}")
         sys.exit(1)
 
-# ──────────────────────────────────────────────────────────────────────
 
+# ──────────────────────────────────────────────────────────────────────
 # MAIN
-
 # ──────────────────────────────────────────────────────────────────────
-
 def main():
-now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-print(f"[{now_str}] BMS Ticket Checker — CI mode")
+    now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"[{now_str}] BMS Ticket Checker — CI mode")
 
     # Parse config
     parsed = parse_bms_url(CONFIG["url"])
@@ -558,12 +541,6 @@ print(f"[{now_str}] BMS Ticket Checker — CI mode")
     region_code, region_slug_r, lat, lon, geohash = resolve_region(
         region_slug
     )
-
-    print(f"  DEBUG URL slug: {region_slug}")
-    print(f" DEBUG resolved region: {region_code}")
-    print(f" DEBUG resolved slug: {region_slug_r}")
-    print(f" DEBUG coordinates: {lat}, {lon}")
-    print(f" DEBUG geohash: {geohash}")
 
     # Determine dates to check
     raw_dates = CONFIG["dates"].strip()
@@ -643,5 +620,6 @@ print(f"[{now_str}] BMS Ticket Checker — CI mode")
 
     print("\n  Done.")
 
-if **name** == "**main**":
-main()
+
+if __name__ == "__main__":
+    main()
