@@ -73,7 +73,6 @@ REGION_MAP = {
     "bhimavaram": ("BHIM", "bhimavaram", "16.5449", "81.5212", "tfc"),
     "national-capital-region-ncr": ("NCR", "national-capital-region-ncr", "28.613", "77.209", "ttn"),
 }
-}
 
 
 # ─────────────────────────────────────���────────────────────────────────
