@@ -3,8 +3,8 @@ name: BMS Ticket Checker
 on:
   schedule:
     # Every 30 minutes
-    - cron: '*/30 * * * *'
-  workflow_dispatch:  # Manual trigger button
+    - cron: "*/30 * * * *"
+  workflow_dispatch: # Manual trigger button
 
 jobs:
   check-tickets:
@@ -20,7 +20,7 @@ jobs:
       - name: Set up uv
         uses: astral-sh/setup-uv@v7
         with:
-          python-version: '3.14'
+          python-version: "3.14"
 
       - name: Install dependencies
         run: uv sync --frozen
@@ -41,4 +41,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add bms_state.json
-          git diff --cached --quiet || (git commit -m "chore: update bms_state.json [skip ci]" && git push)
+          git commit -m "chore: update bms_state.json [skip ci]" || exit 0
+          git pull --rebase origin main
+          git push
