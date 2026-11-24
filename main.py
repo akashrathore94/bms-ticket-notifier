@@ -195,6 +195,8 @@ def fetch_bms(event_code, date_code, region_code, region_slug,
         if resp.status_code == 200:
             return resp.json()
         print(f"  HTTP {resp.status_code}")
+        print(f"  Response: {resp.text[:1000]}")
+
     except requests.RequestException as e:
         print(f"  Request failed: {e}")
     return None
