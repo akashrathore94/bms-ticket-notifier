@@ -71,6 +71,8 @@ REGION_MAP = {
     "pune":       ("PUNE",   "pune",       "18.520", "73.856", "te2"),
     "kochi":      ("KOCH",   "kochi",      "9.932",  "76.267", "t9z"),
     "bhimavaram": ("BHIM", "bhimavaram", "16.5449", "81.5212", "tfc"),
+    "national-capital-region-ncr": ("NCR", "national-capital-region-ncr", "28.613", "77.209", "ttn"),
+}
 }
 
 
