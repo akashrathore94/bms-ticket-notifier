@@ -544,6 +544,12 @@ def main():
         region_slug
     )
 
+    print(f"  DEBUG URL slug: {region_slug}")
+print(f"  DEBUG resolved region: {region_code}")
+print(f"  DEBUG resolved slug: {region_slug_r}")
+print(f"  DEBUG coordinates: {lat}, {lon}")
+print(f"  DEBUG geohash: {geohash}")
+
     # Determine dates to check
     raw_dates = CONFIG["dates"].strip()
     if raw_dates:
