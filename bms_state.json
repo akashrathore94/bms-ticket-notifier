@@ -23,6 +23,22 @@
       "cat": "Tickets",
       "price": "0",
       "status": "3"
+    },
+    "PVPU|6356|20261127|Tickets": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "03:45 PM",
+      "date": "20261127",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
+    },
+    "PVPU|6358|20261127|Tickets": {
+      "venue": "PVR IMAX with Laser, Priya: Delhi",
+      "time": "10:55 PM",
+      "date": "20261127",
+      "cat": "Tickets",
+      "price": "0",
+      "status": "3"
     }
   },
   "dates": {
