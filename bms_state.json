@@ -6,7 +6,7 @@
       "date": "20261126",
       "cat": "Tickets",
       "price": "0",
-      "status": "3"
+      "status": "2"
     },
     "PVPU|6351|20261126|Tickets": {
       "venue": "PVR IMAX with Laser, Priya: Delhi",
@@ -26,12 +26,12 @@
     }
   },
   "dates": {
-    "20261124": "AVAILABLE",
     "20261125": "AVAILABLE",
     "20261126": "AVAILABLE",
     "20261127": "BOOKABLE",
     "20261128": "AVAILABLE",
     "20261129": "AVAILABLE",
-    "20261130": "NOT_OPEN"
+    "20261130": "NOT_OPEN",
+    "20261201": "NOT_OPEN"
   }
 }
